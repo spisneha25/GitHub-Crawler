@@ -28,8 +28,8 @@ except:
         pass
 
 if not len(users):
-        users.append(#username)
-        username = {#username:1}
+        users.append(#seed)
+        username = {#seed:1}
 
 iterno = len(users)-1
 
