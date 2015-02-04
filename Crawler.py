@@ -12,7 +12,7 @@ olduserdata = []
 oldlinkdata = []
 
 try:
-        with open('userdata.sv', 'rb') as csvr:
+        with open('userdata.csv', 'rb') as csvr:
                 csvread = csv.reader(csvr, delimiter=",", quotechar = '|')
                 for r in csvread:
                         users.append(r[0])
