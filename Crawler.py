@@ -111,12 +111,12 @@ for l in oldlinkdata:
 for l in linkdata:        
         writelink.append(l)
 
-with open("userdatatoku.csv", "wb") as csv_file:
+with open("userdata.csv", "wb") as csv_file:
     writer = csv.writer(csv_file, delimiter=',')
     for line in writeuser:
         writer.writerow(line)
         
-with open("linkdatatoku.csv", "wb") as csv_file:
+with open("linkdata.csv", "wb") as csv_file:
     writer = csv.writer(csv_file, delimiter=',')
     for line in writelink:
         writer.writerow(line)
